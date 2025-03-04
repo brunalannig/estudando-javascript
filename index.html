@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro usuário</title>
+    <link rel="stylesheet" href="estilo/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cadastro</h1>
+        </div>
+        <div class="body-form">
+            <form>
+                <div class="box-input">
+                    <label for="nome">Nome: <span class="required-field">*</span></label>
+                    <input type="text" name="nome" class="nome" id="nome" placeholder="Digite seu nome" required/>
+                </div>
+                <div class="box-input">
+                    <label for="sobrenome">Sobrenome: <span class="required-field">*</span></label>
+                    <input type="text" name="sobrenome" class="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required/>
+                </div>
+                <div class="box-input">
+                    <label for="email">E-mail: <span class="required-field">*</span></label>
+                    <input type="text" name="email" class="email" id="email" placeholder="Digite seu e-mail" required/>
+                </div>
+                <div class="box-input">
+                    <label for="idade">Idade: <span class="required-field">*</span></label>
+                    <input type="text" name="idade" class="idade" id="idade" placeholder="Digite sua idade" required/>
+                </div>
+            </form>
+            <div class="botao">
+                <button id="botao" class="botao">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="controle/index.js"></script>
+</body>
+</html>
